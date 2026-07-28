@@ -11,6 +11,8 @@
 - **광고 식별자 (Advertising ID)**: 맞춤형 광고 제공을 위해 Google AdMob에서 수집
 - **Google 계정 정보**: Google Play Games 로그인 시 게임 진행 데이터 저장 및 동기화를 위해 사용
 - **게임 진행 데이터**: 퍼즐 완료 기록, 코인, 아이템 등 게임 상태 정보
+- **비정상 종료 로그 및 진단 정보**: 앱 안정성 개선을 위해 Firebase Crashlytics에서 수집
+- **앱 사용 데이터, 기기 또는 광고 식별자, 대략적 위치**: 앱 사용 패턴 분석을 위해 Firebase Analytics에서 수집
 
   ---
 
@@ -20,6 +22,8 @@
 
 - 광고 게재 (Google AdMob)
 - 게임 진행 데이터 클라우드 저장 및 기기 간 동기화 (Google Play Games)
+- 앱 안정성 모니터링 및 오류 진단 (Firebase Crashlytics)
+- 앱 사용 분석 및 성능 개선 (Firebase Analytics)
 
 ---
 
@@ -29,6 +33,8 @@
 
 - **Google AdMob**: 광고 게재 ([개인정보처리방침](https://policies.google.com/privacy))
 - **Google Play Games**: 게임 데이터 저장 ([개인정보처리방침](https://policies.google.com/privacy))
+- **Firebase Crashlytics**: 앱 비정상 종료 진단 ([개인정보처리방침](https://policies.google.com/privacy))
+- **Firebase Analytics**: 앱 사용 분석 ([개인정보처리방침](https://policies.google.com/privacy))
 
 수집된 정보는 위 목적 외에 제3자에게 판매하거나 공유하지 않습니다.
 
@@ -55,4 +61,4 @@
 
   ---
 
-*최종 수정일: 2026년 6월 15일*
+*최종 수정일: 2026년 7월 29일*
